@@ -11,7 +11,7 @@ RUN pacman -Sy --noconfirm
 RUN pacman -S --noconfirm rust clang nasm
 
 # Install all optional dependencies
-RUN pacman -S --noconfirm aom ffmpeg vapoursynth ffms2 libvpx mkvtoolnix-cli rav1e svt-av1 vapoursynth-plugin-lsmashsource vmaf
+RUN pacman -S --noconfirm aom ffmpeg-full vapoursynth ffms2 libvpx mkvtoolnix-cli rav1e svt-av1 vapoursynth-plugin-lsmashsource vmaf
 
 RUN useradd -ms /bin/bash app_user
 USER app_user
