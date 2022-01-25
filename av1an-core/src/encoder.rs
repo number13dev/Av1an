@@ -542,7 +542,7 @@ impl Encoder {
         "--lp",
         format!("{}", threads),
         "--preset",
-        "8",
+        "12",
         "--keyint",
         "240",
         "--crf",
